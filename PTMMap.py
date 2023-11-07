@@ -66,7 +66,7 @@ def applyStructure(row,New_FDR,g,NM,a,first_b,New_LPS,LPS_pgm2p,LPS_pgm2p_NM,n,F
     else: 
         row[New_LPS] = row[LPS_pgm2p_NM]
         if str(row[g])!= "nan": 
-            dm = "|" +row[g] 
+            dm = "|" +str(row[g])
         else:
             dm = str(row[d])
             dm ="|" + dm[:dm.find(".")+3]
