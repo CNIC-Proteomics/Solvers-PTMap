@@ -47,7 +47,7 @@ def get_fasta_report(file):
     Create the FASTA report
     '''
     def _create_key_id(rec):
-        if (rec.startswith("sp") or rec.startswith("tr")) and "|" in rec:
+        if (rec.startswith("sp") or rec.startswith("tr") or rec.startswith("cRAP_sp")) and "|" in rec:
             return rec.split("|")[1]
         else:
             return rec
