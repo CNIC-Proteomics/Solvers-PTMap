@@ -122,7 +122,7 @@ def Obtain_n (MasterProtein, dicc_fasta,clean_seq,m,npos) :
     new_b_e_list = []
     for i in range(len(b_e_list)): 
         if float(i)%2 ==0: 
-            new_b_e_list.append(b_e_list[i]+"-"+b_e_list[i+1])
+            new_b_e_list.append(b_e_list[i]+"_"+b_e_list[i+1])
     initial_final =";".join(new_b_e_list )
     initial = ";".join(listab)
     final = ";".join(listae)
