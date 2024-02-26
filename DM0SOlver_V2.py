@@ -30,7 +30,7 @@ from pathlib import Path
 def proxim(apex_file,dic_DM0,Error): 
     dic_selected_DMapex ={}
     for Label in dic_DM0:
-        selected_Dmapex = ""
+        selected_DMapex = ""
         DMlist= dic_DM0[Label]
         
         minimun_DiffAbs = Error  # At the beginning the minimum difference (ppms) is considered as the Error
