@@ -29,7 +29,6 @@ import argparse
 import os
 import logging
 from pathlib import Path
-import tkinter as tk
 
 
 
